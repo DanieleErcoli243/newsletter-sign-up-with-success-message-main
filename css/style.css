@@ -1,3 +1,10 @@
+:root {
+    --background-color: hsl(235, 18%, 26%);
+    --card-background: hsl(0, 0%, 100%);
+    --padding-card: 10px 20px; 
+}
+
+
 /* css reset */
 * {
     margin: 0;
@@ -8,7 +15,12 @@
 
 /* generici */
 body{
-    background-color: hsl(235, 18%, 26%);
+    background-color: var(--background-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* utili */
@@ -16,3 +28,4 @@ body{
 .d-none{
     display: none;
 }
+
