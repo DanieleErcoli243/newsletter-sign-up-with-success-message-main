@@ -1,7 +1,8 @@
 :root {
     --background-color: hsl(235, 18%, 26%);
     --card-background: hsl(0, 0%, 100%);
-    --padding-card: 10px 20px; 
+    --padding-card: 40px 20px; 
+    --margin-bottom: 20px;
 }
 
 
@@ -29,3 +30,25 @@ img {
     display: none;
 }
 
+/* card */
+.card {
+    background-color: var(--card-background);
+
+    .card-body {
+        padding: var(--padding-card);
+    
+        h1,
+        p {
+            margin-bottom: var(--margin-bottom);
+        }
+    
+        ul {
+            list-style-image: url(../assets/images/icon-list.svg);
+            list-style-position: inside;
+            li {
+                margin-bottom: 10px;
+                
+            }
+        }
+    }
+}
