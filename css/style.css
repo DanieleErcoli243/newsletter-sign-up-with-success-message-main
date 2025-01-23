@@ -48,7 +48,7 @@ img {
 
     .card-body {
         padding: var(--padding-card);
-        margin-bottom: var(--margin-bottom);
+        
         h1,
         p {
             margin-bottom: var(--margin-bottom);
