@@ -2,8 +2,13 @@
     --background-color: hsl(235, 18%, 26%);
     --card-background: hsl(0, 0%, 100%);
     --padding-card: 40px 20px; 
+    --padding-form: 0 20px 40px 20px; 
     --margin-bottom: 20px;
     --font-size: 16px;
+    --padding-element: 15px;
+    --border-radius: 5px;
+    --background-button: hsl(234, 29%, 20%);
+    
 }
 
 
@@ -60,8 +65,48 @@ img {
             li {
                 margin-bottom: 10px;
                 
+                p {
+
+                    margin-left: 10px;
+                    
+                }
             }
         }
+    }
+
+    form {
+        padding: var(--padding-form);
+        display: flex;
+        flex-direction: column;
+        margin-bottom: var(--margin-bottom);
+
+        label {
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        input {
+            flex-basis: 100%;
+            border-radius: var(--border-radius);
+            padding: var(--padding-element);
+            margin-bottom: var(--margin-bottom);
+            border: 1px solid hsl(236, 15%, 82%);
+        }
+        
+        button {
+            border-radius: var(--border-radius);
+            padding: var(--padding-element);
+            background-color: var(--background-button);
+            color: var(--card-background);
+            border: none;
+        }
+
+        button:hover {
+            background-color: hsl(4, 100%, 67%);
+            box-shadow: 0 5px 10px hsl(4, 100%, 67%);
+        }
+
     }
 }
 
@@ -74,4 +119,11 @@ img {
     justify-content: center;
     align-items: center;
     background-color: var(--background-color);
+}
+
+/* media queries */
+
+@media screen and(min-width: 578px) {
+    
+    
 }
