@@ -3,6 +3,7 @@
     --card-background: hsl(0, 0%, 100%);
     --padding-card: 40px 20px; 
     --margin-bottom: 20px;
+    --font-size: 16px;
 }
 
 
@@ -47,7 +48,7 @@ img {
 
     .card-body {
         padding: var(--padding-card);
-    
+        margin-bottom: var(--margin-bottom);
         h1,
         p {
             margin-bottom: var(--margin-bottom);
