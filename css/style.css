@@ -26,6 +26,13 @@ img {
 
 /* utili */
 
+.d-none{
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
 
 .mobile-img {
     display: block;
@@ -63,7 +70,6 @@ img {
     right: 0;
     bottom: 0;
     left: 0;
-    display: none;
     justify-content: center;
     align-items: center;
     background-color: var(--background-color);
