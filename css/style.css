@@ -26,7 +26,11 @@ img {
 
 /* utili */
 
-.d-none{
+
+.mobile-img {
+    display: block;
+}
+.desktop-img {
     display: none;
 }
 
