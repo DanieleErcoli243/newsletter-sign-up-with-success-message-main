@@ -1,7 +1,7 @@
 :root {
     --background-color: hsl(235, 18%, 26%);
     --card-background: hsl(0, 0%, 100%);
-    --padding-card: 40px 20px; 
+    --padding-card: 20px 20px 15px 20px; 
     --padding-form: 0 20px 40px 20px; 
     --margin-bottom: 20px;
     --font-size: 16px;
@@ -25,10 +25,7 @@ body{
     background-color: var(--background-color);
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+
 
 /* utili */
 
@@ -42,6 +39,8 @@ img {
 
 .mobile-img {
     display: block;
+    width: 100%;
+    height: auto;
 }
 .desktop-img {
     display: none;
@@ -63,10 +62,10 @@ img {
             list-style-image: url(../assets/images/icon-list.svg);
             list-style-position: outside;
             padding: 0 25px;
+            
             li {
                 margin-bottom: 10px;
-                vertical-align: middle;
-                line-height: 1;
+                
                 p {
 
                     font-size: var(--font-size);
