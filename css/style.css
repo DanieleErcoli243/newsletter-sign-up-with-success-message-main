@@ -112,7 +112,9 @@ body{
             background-color: var(--button-hover);
             box-shadow: 0 5px 10px var(--button-hover);
         }
-
+        #error-msg {
+            color: var(--button-hover);
+        }
     }
 }
 
