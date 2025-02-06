@@ -43,10 +43,13 @@
             </li>
           </ul>
           <form method="post">
-          <label for="email">Email address</label>
-          <input id="email" type="email" placeholder="email@company.com" required>
+            <div class="labels">
+              <label for="email">Email address</label>
+              <p id="error-msg"></p>
+            </div>
+            <input id="email" type="email" placeholder="email@company.com" required>
             <!-- Sign-up form end -->
-            <button>Subscribe to monthly newsletter</button>
+            <button id="sub">Subscribe to monthly newsletter</button>
           </form>
         </div>
         
@@ -67,7 +70,7 @@
            <!-- success message end -->
 
           </div>
-          <button>Dismiss message</button>
+          <button id="dismiss">Dismiss message</button>
         </div>
       </div>
     </div>

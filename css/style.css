@@ -79,6 +79,12 @@ body{
         display: flex;
         flex-direction: column;
         margin-bottom: var(--margin-bottom);
+
+        .labels {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
         
         label {
             font-size: 12px;
